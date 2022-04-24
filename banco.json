@@ -1,0 +1,28 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Gustavo Wagner",
+      "numero": "(83)99665544",
+      "idade": 30
+    },
+    {
+      "nome": "Joao Pedro",
+      "numero": "(83)99887766",
+      "idade": "19",
+      "id": 2
+    },
+    {
+      "nome": "thiago ",
+      "numero": "(83)99995566",
+      "idade": "19",
+      "id": 3
+    },
+    {
+      "nome": "joao rafael",
+      "numero": "(83)99999554",
+      "idade": "19",
+      "id": 4
+    }
+  ]
+}
