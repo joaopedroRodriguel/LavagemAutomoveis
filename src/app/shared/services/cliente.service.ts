@@ -16,11 +16,11 @@ export class ClienteService {
 
   }
 
-  listar(): Observable<Cliente[]> {
+  listarclientes(): Observable<Cliente[]> {
     return this.httpClient.get<Cliente[]>(this.URL_CLIENTES);
   }
 
-  inserir(cliente: Cliente): Observable<Cliente> {
+  inserirclientes(cliente: Cliente): Observable<Cliente> {
     return this.httpClient.post<Cliente>(this.URL_CLIENTES, cliente);
 
   }

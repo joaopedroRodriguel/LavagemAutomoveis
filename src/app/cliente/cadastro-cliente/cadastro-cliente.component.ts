@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {Cliente} from '../../shared/model/cliente';
-import {ClienteService} from '../../shared/services/cliente.service';
+import {ClienteFirestoreService} from '../../shared/services/cliente-firestore.service';
 
 @Component({
   selector: 'app-cadastro-cliente',
@@ -12,7 +12,7 @@ export class CadastroClienteComponent implements OnInit {
   cliente: Cliente;
 
 
-  constructor(private clienteService: ClienteService) {
+  constructor(private clientefirestoreservice: ClienteFirestoreService) {
     this.cliente = new Cliente();
   }
 
@@ -20,7 +20,7 @@ export class CadastroClienteComponent implements OnInit {
   }
 
   inserirCliente(): void {
-    this.clienteService.inserir(this.cliente).subscribe(
+    this.clientefirestoreservice.inserir(this.cliente).subscribe(
       cliente => console.log(cliente)
     );
     this.cliente = new Cliente();

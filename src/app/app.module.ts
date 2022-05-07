@@ -13,25 +13,29 @@ import {MatButtonModule} from '@angular/material/button';
 import {ClienteModule} from './cliente/cliente.module';
 import {LayoutModule} from './layout/layout.module';
 import {HttpClientModule} from '@angular/common/http';
+import {FrentistaModule} from './frentista/frentista.module';
+import {FirestoreModule} from './firestore/firestore.module';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
-  imports: [
-    AppRoutingModule,
-    BrowserModule,
-    BrowserAnimationsModule,
-    FormsModule,
-    LayoutModule,
-    MatButtonModule,
-    MatCardModule,
-    MatInputModule,
-    MatFormFieldModule,
-    MatIconModule,
-    ClienteModule,
-    HttpClientModule
-  ],
+    imports: [
+        AppRoutingModule,
+        BrowserModule,
+        BrowserAnimationsModule,
+        FormsModule,
+        LayoutModule,
+        MatButtonModule,
+        MatCardModule,
+        MatInputModule,
+        MatFormFieldModule,
+        MatIconModule,
+        ClienteModule,
+        HttpClientModule,
+        FrentistaModule,
+        FirestoreModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

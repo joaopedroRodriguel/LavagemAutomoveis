@@ -1,0 +1,13 @@
+<div fxLayout="row wrap" fxLayout.lt-sm="column">
+  <mat-card *ngFor="let frentista of frentistas" class="mat-card-listagem-frentista" fxFlex="30%">
+    <mat-card-header>
+      <mat-card-title>
+        <mat-icon>person</mat-icon>
+        {{frentista.nome}}</mat-card-title>
+      <mat-card-subtitle *ngIf="frentista.numerotel">Numero Telefone: {{frentista.numerotel}} Status De Disponibilidade: {{frentista.status}}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-actions>
+      <button mat-icon-button (click)="remover(frentista)"><mat-icon>delete</mat-icon></button>
+    </mat-card-actions>
+  </mat-card>
+</div>

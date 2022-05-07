@@ -23,6 +23,50 @@
       "numero": "(83)99999554",
       "idade": "19",
       "id": 4
+    },
+    {
+      "nome": "joao",
+      "numero": "8845",
+      "idade": "19",
+      "id": 5
+    },
+    {
+      "nome": "joao",
+      "numero": "8855444",
+      "idade": "18",
+      "id": 6
+    },
+    {
+      "nome": "joao pedr",
+      "numero": "192837733",
+      "idade": "2938374",
+      "id": 7
+    }
+  ],
+  "frentistas": [
+    {
+      "id": 1,
+      "nome": "cladio",
+      "numerotel": "00000000",
+      "status": "indisponivel"
+    },
+    {
+      "id": 2,
+      "nome": "cladio",
+      "numerotel": "00000000",
+      "status": "indisponivel"
+    },
+    {
+      "id": 3,
+      "nome": "cladio",
+      "numerotel": "00000000",
+      "status": "indisponivel"
+    },
+    {
+      "id": 4,
+      "nome": "cladio",
+      "numerotel": "00000000",
+      "status": "indisponivel"
     }
   ]
 }
